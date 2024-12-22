@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<link rel="stylesheet" href="../../../static/Footer/css/footerelements.css">
+	<!-- <meta charset="utf-8">-->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">-->
+	<!--    <title>Untitled</title>-->
+	<!--    <link rel="stylesheet" href="../../../static/Footer/bootstrap/css/bootstrap.min.css">-->
+	<!--    <link rel="stylesheet" href="../../../static/Footer/fonts/ionicons.min.css">-->
+	<!--    <link rel="stylesheet" href="../../../static/Footer/css/Article-List.css">-->
+	<!--    <link rel="stylesheet" href="../../../static/Footer/css/Footer-Dark.css">-->
+	<!--    <link rel="stylesheet" href="../../../static/Footer/css/styles.css">-->
+</head>
+
+<body>
+
+	<div th:fragment="footer">
+		<div class="footer-dark">
+			<footer>
+				<div class="container">
+					<div class="row" style="padding-right: 20px; padding-left: 20px; padding-top: 67px;">
+						<div class="col-sm-6 col-md-3 item">
+							<h3>SERVICES</h3>
+							<ul>
+								<li><a th:href="@{/footer/api}">API</a></li>
+								<li><a th:href="@{/footer/pharmacy}">Pharmacy</a></li>
+								<li><a th:href="@{/footer/emergency}">Emergency Care</a></li>
+								<li><a th:href="@{/footer/nursing}">Nursing</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-3 item">
+							<h3>ABOUT</h3>
+							<ul>
+								<li><a th:href="@{/Home/home-page}">Patient Management</a></li>
+								<li><a th:href="@{/footer/team}">Our Team</a></li>
+								<li><a th:href="@{/footer/career}">Careers</a></li>
+								<li><a th:href="@{/footer/home-page}">Blog</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-3 item">
+							<h3>PRODUCTS</h3>
+							<ul>
+								<li><a th:href="@{/Home/home-page}">Sales CRM</a></li>
+								<li><a th:href="@{/Home/home-page}">Marketing Automation</a></li>
+								<li><a th:href="@{/Home/home-page}">Mobile CRM App</a></li>
+								<li><a th:href="@{/Home/home-page}">Customer Portal</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-3 item">
+							<h3>LIFELINEHUB</h3>
+							<ul>
+								<li><a th:href="@{/Home/home-page}">Mail</a></li>
+								<li><a th:href="@{/Home/home-page}">Youtube</a></li>
+								<li><a th:href="@{/Home/home-page}">Twitter</a></li>
+								<li><a th:href="@{/Home/home-page}">Instagram</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-3 item" style="padding-top: 20px;">
+							<h3>LIFELINEHUB HOSPITALS</h3>
+							<p><strong>Automated HMS</strong></p>
+							<ul>
+								<li>Email: <a href="#">info@lifelinehub.com</a></li>
+								<li>Twitter: <a href="#">twitter.com/@llhub</a></a></li>
+							</ul>
+						</div>
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: small; padding-top: 20px;">
+							<h3>PATIENT</h3>
+							<p>Any conversation about what patience is and its importance will tend to <br>mention that
+								patience is a virtue. But there's much more to it. <br>Patience is your ability to wait
+								without becoming <br>annoyed, upset, or angry. It's when you exercise self-control rather
+								than lashing out and complaining.</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div class="copy-right-sections" style="text-align:center; margin-top: 17px; justify-content: center; align-items: center; padding: 10px;">
+				<p style="font-size: smaller; color: #fff; background-color: #006400; padding: 7px;">Copyright &copy; LifeLineHub - All Rights Reserved | <a href="#"
+						class="privacy-link" style="text-decoration: none; color: #fff;">Privacy
+						Policy</a></p>
+			</div>
+		</div>
+	</div>
+	<script src="/Footer/js/jquery.min.js"></script>
+	<script src="/Footer/bootstrap/js/bootstrap.min.js"></script>
+	<!-- </body>-->
+
+	<!-- </html>-->
