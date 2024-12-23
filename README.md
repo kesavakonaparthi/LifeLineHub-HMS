@@ -1,6 +1,8 @@
 # LifeLineHub - A Centralized Healthcare Management Solution -- Hospital Management System 
 
-**LifeLineHub** is a comprehensive Hospital Management System designed to automate and streamline the management of hospital operations. This project integrates both front-end and back-end technologies to provide an efficient solution for managing hospital data, including patient information, staff details, appointmens and medical records.
+**LifeLineHub** is a demo project based on Hospital Management System and their Applications.
+
+**LifeLineHub** is designed to automate and streamline the management of hospital operations. This project integrates both front-end and back-end technologies to provide an efficient solution for managing hospital data, including patient information, staff details, appointmens and medical records.
 
 ## Features
 **Patient Management**: Register, update and view patient details.
