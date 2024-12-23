@@ -23,12 +23,17 @@ Data is given in JSON format and recieved in JSON.
 **Spring Thymeleaf**: Template engine used to integrate dynamic content with HTML views.
 
 ### Some Screenshots
+**Footer**
 ![hms_image7](https://github.com/user-attachments/assets/d8a00285-cd32-4d9a-b62e-31be67b64650)
+**Reviews**
 ![hms_image6](https://github.com/user-attachments/assets/ffd463b6-16c7-4491-a800-c23bfc9333f5)
+**Departments**
 ![hms_image5](https://github.com/user-attachments/assets/c2b57181-abc2-446e-92f9-38fb25c5a1eb)
+**Modules**
 ![hms_image4](https://github.com/user-attachments/assets/79465895-06d7-4107-a53b-85ba6da8345f)
-![hms_image3](https://github.com/user-attachments/assets/d27991b7-39e6-4968-988d-e0f9827f57b6)
+**Information**
 ![hms_image2](https://github.com/user-attachments/assets/122c9c3b-37dc-4c0b-873e-a189f1cc76ca)
+**Navbar**
 ![hms_image1](https://github.com/user-attachments/assets/ff8dd84b-95c3-40d7-8092-60c6dca60ae0)
 
 
